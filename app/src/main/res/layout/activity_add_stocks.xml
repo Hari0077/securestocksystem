@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:background="@drawable/stock"
+android:orientation="vertical"
+tools:context=".AddStocks">
+
+<TextView
+    android:id="@+id/textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:text="Hello admin"
+    android:textColor="@android:color/white"
+    android:textColorHighlight="@color/colorPrimaryDark"
+    android:textSize="35dp" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="82dp"
+    android:layout_height="85dp"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/profile" />
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:ems="10"
+    android:id="@+id/stockname"
+    android:layout_below="@+id/imageView"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText"
+    android:layout_alignEnd="@+id/editText"
+    android:textColorHint="@android:color/white"
+    android:hint="Product Name" />
+
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:ems="10"
+    android:id="@+id/crs"
+    android:layout_below="@+id/username"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText"
+    android:layout_alignEnd="@+id/editText"
+    android:textColorHint="@android:color/white"
+    android:hint="Customer Price" />
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:ems="10"
+    android:id="@+id/wsrs"
+    android:layout_below="@+id/password"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText"
+    android:layout_alignEnd="@+id/editText"
+    android:textColorHint="@android:color/white"
+    android:hint="Wholesale Price" />
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:ems="10"
+    android:id="@+id/total"
+    android:layout_below="@+id/password"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignRight="@+id/editText"
+    android:layout_alignEnd="@+id/editText"
+    android:textColorHint="@android:color/white"
+    android:hint="Total Stocks" />
+
+
+
+<Button
+    android:id="@+id/add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_toStartOf="@+id/textview"
+    android:layout_toLeftOf="@+id/textview"
+    android:background="@color/colorPrimary"
+    android:text="Add"
+    android:textColor="@android:color/white"
+    android:textSize="18sp" />
+<Button
+    android:id="@+id/view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:background="@color/colorPrimary"
+    android:text="View"
+    android:textColor="@android:color/white"
+    android:textSize="18sp"
+    />
+</LinearLayout>

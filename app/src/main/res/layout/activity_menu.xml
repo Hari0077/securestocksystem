@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/stock"
+    android:orientation="vertical"
+    tools:context=".menu">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="227dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Welcome!"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textSize="35dp" />
+    <Button
+        android:id="@+id/addstock"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Add Stock"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/viewstock"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="View Stock"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>
+

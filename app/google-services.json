@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119750812964",
+    "project_id": "stocksystem-1b91a",
+    "storage_bucket": "stocksystem-1b91a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119750812964:android:d9c629c67398a4cb147fb1",
+        "android_client_info": {
+          "package_name": "com.example.securestocksystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119750812964-aamkbq32kbvupd0ddt20gmhd6fa5cgcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTJZmuTi3wicYLLRHDCGiu2GUiPdlMsqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119750812964-aamkbq32kbvupd0ddt20gmhd6fa5cgcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
